@@ -1,0 +1,26 @@
+body {
+    max-width: 99%;
+    width: 99%;
+}
+.nombre {
+    color: rgb(53, 92, 143);
+    text-shadow: 100ch;
+}
+#imagensojo {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+#resultado {
+    font-size: 20px;
+}
+@media (max-width: 420px) {
+    body {
+        max-width: 99%; /* Ocupa todo el ancho disponible */
+        width: 99%; /* Ocupa el 100% del ancho en móviles */
+    }
+    #imagensojo {
+        height: 150px;
+        width: 150px;
+    }
+}
